@@ -1,6 +1,6 @@
 使用@linhua的黑科技rinetd为OVZ构架的VPS开启bbr 参考：https://www.v2ex.com/t/353778#r_4311799
 
-步骤:
+Debian 8 64 步骤:
 
 1.下载rintd二进制文件:
 wget https://raw.githubusercontent.com/mixool/rinetd/master/rinetd
