@@ -34,3 +34,4 @@ cd /etc/init.d
 update-rc.d rinetd.sh defaults 97
 reboot
 
+PS:记录在这里其实是为了方便自己下载rinetd文件
