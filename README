@@ -1,6 +1,15 @@
-在使用@linhua的黑科技rinetd想设置为开机自动运行，google了很久才搞定，做个记录.
+使用@linhua的黑科技rinetd为OVZ构架的VPS开启bbr 参考：https://www.v2ex.com/t/353778#r_4311799
 
-步骤:下载rintd二进制文件，配置rinetd.conf，然后执行
+步骤:
+
+1.下载rintd二进制文件:
+wget https://raw.githubusercontent.com/mixool/rinetd/master/rinetd
+2.修改rinetd的配置文件rinetd.conf,添加监听地址 
+vi rinetd.conf
+# bindadress bindport connectaddress connectport 
+0.0.0.0 443 0.0.0.0 443
+0.0.0.0 80 0.0.0.0 80
+3.设置开机启动
 vi /etc/init.d/rinetd.sh
 
 #!/bin/sh
@@ -24,3 +33,4 @@ chmod +x /etc/init.d/rinetd.sh
 cd /etc/init.d
 update-rc.d rinetd.sh defaults 97
 reboot
+
