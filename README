@@ -29,7 +29,7 @@ vi /etc/init.d/rinetd.sh
 nohup /root/rinetd -f -c /root/rinetd.conf raw venet0:0 >/dev/null 2>&1 &
 
 最后执行：
-chmod +x /etc/init.d/rinetd
+chmod +x /etc/init.d/rinetd.sh
 cd /etc/init.d
 update-rc.d rinetd.sh defaults 97
 reboot
