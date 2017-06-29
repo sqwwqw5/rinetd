@@ -1,9 +1,9 @@
-使用@linhua的黑科技rinetd为OVZ构架的VPS开启bbr 参考：https://www.v2ex.com/t/353778#r_4311799
+使用@linhua的黑科技rinetd为OVZ构架的VPS开启bbr
 ***
 Debian 8 64 步骤:
 #### 下载rintd二进制文件(原版bbr和修改版bbr二选一即可):
-1. `wget --no-check-certificate https://raw.githubusercontent.com/mixool/rinetd/master/rinetd`
-2. `wget --no-check-certificate https://raw.githubusercontent.com/mixool/rinetd/master/rinetd_bbr_powered -O /root/rinetd`
+    1. `wget --no-check-certificate https://raw.githubusercontent.com/mixool/rinetd/master/rinetd`
+    2. `wget --no-check-certificate https://raw.githubusercontent.com/mixool/rinetd/master/rinetd_bbr_powered -O /root/rinetd`
   * 修改权限:
 `chmod +x rinetd`
 #### 修改rinetd的配置文件rinetd.conf,添加监听地址:
