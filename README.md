@@ -29,5 +29,5 @@ WantedBy=multi-user.target
 #### 最后执行:
 `systemctl enable rinetd.service && systemctl start rinetd.service`  
 ***
-##### Thanks to linhua
-For more details:[github/linhua]{https://github.com/linhua55/lkl_study}
+##### LKL BBR RINETD
+For more details:[github/linhua](https://github.com/linhua55/lkl_study)
