@@ -32,7 +32,7 @@ vi /etc/init.d/rinetd.sh
 # Description: ovz vps bbr
 ### END INIT INFO
 
-nohup /root/rinetd -f -c /root/rinetd.conf raw venet0:0 >/dev/null 2>&1 &
+/root/rinetd -f -c /root/rinetd.conf raw venet0:0
 
 最后执行：
 chmod +x /etc/init.d/rinetd.sh
