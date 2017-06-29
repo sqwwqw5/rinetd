@@ -4,9 +4,9 @@ Debian 8 64 步骤:
 
 
 1.下载rintd二进制文件(原版bbr和修改版bbr二选一即可):  
-wget --no-check-certificate https://raw.githubusercontent.com/mixool/rinetd/master/rinetd`  
+```wget --no-check-certificate https://raw.githubusercontent.com/mixool/rinetd/master/rinetd```  
 或者  
-`wget --no-check-certificate https://raw.githubusercontent.com/mixool/rinetd/master/rinetd_bbr_powered -O /root/rinetd`  
+```wget --no-check-certificate https://raw.githubusercontent.com/mixool/rinetd/master/rinetd_bbr_powered -O /root/rinetd```
 修改权限:  
 `chmod +x rinetd`  
 
