@@ -29,5 +29,5 @@ WantedBy=multi-user.target
 `systemctl enable rinetd.service && systemctl start rinetd.service`  
 ***
 ##### LKL BBR RINETD  
-CentOS/RHEL6系以及Ubuntu 14.x，Debian7.x系列，会出现错误`GLIBC_2.14' not found`,glibc版本太低，rinetd编译时使用了较高版本的glibc.
+CentOS/RHEL6系以及Ubuntu 14.x，Debian7.x系列，会出现错误`GLIBC_2.14' not found`,glibc版本太低，rinetd编译时使用了较高版本的glibc.  
 For more details:[linhua55/lkl_study](https://github.com/linhua55/lkl_study)
