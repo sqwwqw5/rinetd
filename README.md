@@ -31,3 +31,5 @@ WantedBy=multi-user.target
 ##### LKL BBR RINETD  
 For more details:[linhua55/lkl_study](https://github.com/linhua55/lkl_study)  
 PS: 推荐使用最新的[One-key script](https://github.com/linhua55/lkl_study#one-key-script)
+更新个自己写的一键(rinetd文件不一定是最新的)：  
+`curl https://raw.githubusercontent.com/mixool/script/master/rinetd.sh | bash`
